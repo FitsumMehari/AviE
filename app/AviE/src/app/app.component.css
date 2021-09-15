@@ -1,0 +1,46 @@
+.example-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-icon {
+    border: none;
+    background: none;
+}
+
+.links {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.links a {
+    /* margin: 0 3rem; */
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.active-link {
+    transform: scale(1.3);
+}
+
+.example-sidenav {
+    width: 80vw;
+}
+
+.router-outlet {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
